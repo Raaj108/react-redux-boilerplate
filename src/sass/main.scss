@@ -1,0 +1,11 @@
+@import "variables";
+
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+
+  h1 {
+    font-size: 2.5rem;
+    color: $textcolor;
+  }
+}
