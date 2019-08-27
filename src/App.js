@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import Home from './components/pages/Home';
+import Documentation from './components/pages/Documentation';
 import PageNotFound from './components/pages/PageNotFound';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div className="App container">
         <Switch>
           <Route exact path="/" component={Home}></Route>
+          <Route exact path="/docs" component={Documentation}></Route>
           <Route component={PageNotFound}></Route>
         </Switch>
       </div>
