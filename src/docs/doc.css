@@ -1,0 +1,84 @@
+.documentation-container .parallax-header-container {
+  position: relative;
+  height: 500px;
+  background-color: #282c34;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.documentation-container .parallax-header-container .parallax-header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.documentation-container .parallax-header-container .parallax-header-content .App-logo {
+  display: block;
+  margin: 0 auto;
+  height: 40vmin;
+  pointer-events: none;
+  -webkit-animation: App-logo-spin infinite 20s linear;
+  -moz-animation: App-logo-spin infinite 20s linear;
+  -o-animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.documentation-container .parallax-header-container .parallax-header-content .title {
+  text-align: center;
+  color: #61dafb;
+}
+
+.documentation-container #documentation {
+  padding-top: 20px;
+}
+
+.documentation-container #documentation .note {
+  background-color: #555555;
+  color: #eeeeee;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
