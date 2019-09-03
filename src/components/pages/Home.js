@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 const Home = (props) =>{
   return (
-    <div className="" id="home">
+    <div className="container" id="home">
       <h1 className="page-title">Home Page</h1>
     </div>
   )
