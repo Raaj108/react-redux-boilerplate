@@ -11,13 +11,19 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
+          <ul className="navbar-nav mr-auto">            
             <li className="nav-item active">
-              <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+              <Link className="nav-link" to="/">Docs</Link>
+            </li>   
+            <li className="nav-item">
+              <Link className="nav-link" to="/home">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/docs">Documentation</Link>
-            </li>        
+              <Link className="nav-link" to="/component1">Component1</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/component2">Component2</Link>
+            </li>
           </ul>        
         </div>
       </div>
